@@ -29,16 +29,16 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="#home">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Shoes</a>
+                                <a class="nav-link active" aria-current="page" href="#shoes">Shoes</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Backpack</a>
+                                <a class="nav-link active" aria-current="page" href="#backpack">Backpack</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Subscribe</a>
+                                <a class="nav-link active" aria-current="page" href="#subscribe">Subscribe</a>
                             </li>
                         </ul>
                     </div>
@@ -46,7 +46,7 @@
             </nav>
         </div>
         <section>
-            <div class="container">
+            <section class="container" id="home">
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner bg-info bg-gradient">
                         <div class="carousel-item active">
@@ -109,14 +109,14 @@
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
-            </div>
+            </section>
         </section>
     </header>
     <main>
         <!-- Catagories Section -->
         <section>
-            <div class="container">
-                <div class="row row-col-lg-4 my-5">
+            <section class="container">
+                <div class="row my-5">
                     <div
                         class="col d-flex justify-content-between bg-primary align-items-center text-white mx-3 rounded-3">
                         <h1>Watch</h1>
@@ -133,11 +133,11 @@
                         <img src="./images/categories/shoes.png" alt="">
                     </div>
                 </div>
-            </div>
+            </section>
         </section>
         <section>
             <!-- Shoes Section -->
-            <section class="container my-5">
+            <section class="container my-5" id="shoes">
                 <h2>Shoes</h2>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
@@ -183,7 +183,7 @@
             </section>
         </section>
         <!-- Backpack Section -->
-        <section class="container my-5">
+        <section class="container my-5" id="backpack">
             <h2>Backpack</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -230,7 +230,7 @@
         <!-- Subscribe Section -->
         <section
             class="container d-flex justify-content-center align-items-center bg-secondary text-white rounded-3 my-5"
-            style=" height: 300px;">
+            style=" height: 300px;" id="subscribe">
             <div class="">
                 <h1>LET'S STAY IN TOUCH</h1>
                 <p>Get updates on sales, specials and more</p>
